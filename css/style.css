@@ -17,4 +17,8 @@ header {
    nav{
        visibility: hidden;
    }
+
+   header div img{
+       visibility: hidden;
+   }
 }

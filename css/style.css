@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -6,4 +6,13 @@ header {
     background: url("../img/img_fond.png") no-repeat fixed;
     flex-direction: column-reverse;
     bottom: 4vw;
+}
+
+@media (max-width: 560px) {
+   #test{
+       margin-top: 0;
+   }
+   nav{
+       visibility: hidden;
+   }
 }

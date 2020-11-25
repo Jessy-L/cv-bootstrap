@@ -6,10 +6,12 @@ header {
     background: url("../img/img_fond.png") no-repeat fixed;
     flex-direction: column-reverse;
     bottom: 4vw;
+    padding-top: 20vh;
+    height: 100vh;
 }
 
-@media (max-width: 560px) {
-   #test{
+@media (max-width: 660px) {
+   #content-img-text{
        margin-top: 0;
    }
    nav{

@@ -10,6 +10,11 @@ header {
     height: 100vh;
 }
 
+.content-img-icone div img{
+    width: 150px;
+}
+
+
 @media (max-width: 660px) {
    #content-img-text{
        margin-top: 0;
@@ -21,4 +26,8 @@ header {
    header div img{
        visibility: hidden;
    }
+
+   .content-img-icone div img{
+    width: 70px;
+}
 }
